@@ -37,7 +37,6 @@ jobs:
     # 4. Compila o projeto em modo 'Release' para verificar se não há erros
     - name: Build
       run: dotnet build --no-restore --configuration Release
-
     # 5. Executa os testes (neste momento, não temos testes, mas o passo é fundamental)
     # O comando irá passar, pois não encontrará nenhum projeto de teste para rodar.
     # Quando adicionarmos testes, eles serão executados aqui.
