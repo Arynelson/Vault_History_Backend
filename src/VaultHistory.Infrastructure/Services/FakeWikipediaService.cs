@@ -25,7 +25,7 @@ public class FakeWikipediaService : IWikipediaService
     {
         // Retorna um resumo falso baseado no nome do local.
         var summary = $"Este é um resumo histórico gerado para '{locationName}'. É um lugar com uma história rica e fascinante, conhecido por seus marcos culturais e contribuições significativas para a região ao longo dos séculos.";
-        
+
         return Task.FromResult(summary);
     }
 }
